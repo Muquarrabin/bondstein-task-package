@@ -1,7 +1,7 @@
 {
   "name": "muquarrabin/bondstein-task-package",
   "description": "Task Package for Bondstein",
-  "type": "project",
+  "type": "library",
   "keywords": ["laravel", "package"],
   "license": "MIT",
   "authors": [
@@ -38,5 +38,4 @@
       }
     }
   }
-}
 }
