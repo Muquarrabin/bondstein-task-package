@@ -33,7 +33,7 @@ Then  run this command
 
 ## Documentation
 
-Register it in your Laravel project's config/app.php:
+Register it in your Laravel project's config/app.php (if auto-discovery is disabled):
 
 ```
 'providers' => [
