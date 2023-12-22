@@ -20,7 +20,7 @@ At first add this lines to composer.json
 "repositories": [
     {
         "type": "vcs",
-        "url": "https://gitlab.com/muquarrabin/bondstein-task-package"
+        "url": "https://github.com/muquarrabin/bondstein-task-package"
     }
 ]
 ```
