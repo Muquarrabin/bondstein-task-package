@@ -1,0 +1,42 @@
+{
+  "name": "muquarrabin/bondstein-task-package",
+  "description": "Task Package for Bondstein",
+  "type": "library",
+  "keywords": ["laravel", "package"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Nasif Muquarrabin",
+      "email": "nasifmuquarrabin@gmail.com"
+    }
+  ],
+  "require": {
+    "php": "^7.4",
+    "laravel/framework": "^8.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Muquarrabin\\BondsteinTaskPackage\\": "src/"
+    }
+  },
+
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "config": {
+    "sort-packages": true
+  },
+  "scripts": {
+    "test": [
+    ]
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Muquarrabin\\BondsteinTaskPackage\\BondsteinTaskPackageServiceProvider"
+      ],
+      "aliases": {
+      }
+    }
+  }
+}
+}
